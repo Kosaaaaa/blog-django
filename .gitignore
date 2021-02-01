@@ -104,3 +104,4 @@ blog_api/
 /.vscode
 
 *.lock
+static_root/*
