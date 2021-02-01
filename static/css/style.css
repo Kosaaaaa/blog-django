@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background-color: #212529 !important;
+  color: #f4f4f4;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #f00000;
+  border-color: #dc281e;
+}
+
+.masthead {
+  background: #3398e1;
+  height: auto;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.light-text {
+  color: #f4f4f4;
+}
+
+.dark-text {
+  color: #212529;
+}
