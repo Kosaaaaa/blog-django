@@ -13,14 +13,17 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 import environ
 
-# read the .env file
+
 env = environ.Env()
+# read the .env file
+environ.Env.read_env()
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
