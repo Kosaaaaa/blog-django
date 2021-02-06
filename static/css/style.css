@@ -25,3 +25,8 @@ body {
 .dark-text {
   color: #212529;
 }
+
+.about {
+    width: 100%;
+    text-align: center;
+}
